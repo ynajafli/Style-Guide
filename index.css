@@ -1,0 +1,171 @@
+/* <------------Universal------------> */
+
+body {
+    background-image: url(./images/background.png);
+    background-size: cover;
+}
+
+header {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+section {
+    border: 1px solid rgb(143, 129, 129);
+    box-shadow: 0px 0px 8px #1B1B1E; 
+    background-size: cover; 
+    margin: 50px auto; 
+    width: 80%; 
+    border-radius: 10px;
+}
+
+section h1 {
+    background-color: rgba(0, 0, 0, 0.829);
+    margin: 0;
+    color: white;
+    font-size: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0 5px;
+}
+
+/* <------------First Section------------> */
+
+#color {
+    background-image: url("./images/color.png");
+}
+
+.colorContainer {
+    margin: 50px auto;
+    width: 90%;
+}
+
+.rectangle {
+    border-radius: 2px;
+    width: 31.91%;
+    text-align: center;
+    display: inline-block;
+}
+
+
+#black {
+    background-color: black;
+    color: white;
+}
+
+#green {
+    background-color: darkslategray;
+    color: white;
+    margin: 0 25px;
+}
+
+#chocolate {
+    background-color: chocolate;
+}
+
+#corn {
+    background-color: cornflowerblue;
+}
+
+#red {
+    background-color: indianred;
+    margin: 0 25px;
+}
+
+#purple {
+    background-color: indigo;
+    color: white;
+}
+
+/* <------------Second Section------------> */
+
+#font {
+    background-image: url("./images/wood.png");
+}
+
+.fontContainer {
+    width: 95%;
+    height: 325px;
+    margin: 50px auto;
+}
+
+.fontBox {
+    background-color: rgba(0, 0, 0, 0.726);
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 30%;
+    vertical-align: top;
+    height: 100%;
+    margin: 0 20px;
+}
+
+.fontBox h2 {
+    background-color: gray;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 25px;
+}
+
+.fontBox a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.fontBox h2:hover {
+    background-color: rgb(16, 56, 16);
+}
+
+.fontBox a:visited {
+    color:white;
+    text-decoration: none;
+}
+
+#roboto p {
+    font-family: Roboto;
+}
+
+#peru p {
+    font-family: 'Playwrite PE';
+}
+
+#playfair p {
+    font-family: 'Playfair Display';
+    line-height: 1.8;
+}
+
+
+/* <------------Third Section------------> */
+
+#style {
+    background-image: url("./images/A.png");
+    background-size: 750px 600px;
+    background-position: center;
+}
+
+.styleContainer {
+    /* border: 2px solid black; */
+    width: 60%;
+    margin: 40px;
+    margin-bottom: 60px;
+}
+
+.styleBox {
+    display: inline-block;
+    /* border: 2px solid red; */
+    margin-right: 150px;
+}
+
+.styleBox li {
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+.styleBox h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
